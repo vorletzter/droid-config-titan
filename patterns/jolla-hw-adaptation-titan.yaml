@@ -75,8 +75,11 @@ Requires:
 - geoclue-provider-hybris
 
 # For FM radio on some QCOM devices
-#- qt5-qtmultimedia-plugin-mediaservice-irisradio
-#- jolla-mediaplayer-radio
+- qt5-qtmultimedia-plugin-mediaservice-irisradio
+- jolla-mediaplayer-radio
+
+# Fixes for Moto G Series
+- droid-hal-falcon-detritus
 
 Summary: Jolla HW Adaptation titan
 
